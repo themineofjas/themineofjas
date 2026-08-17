@@ -19,13 +19,14 @@ footer {
     margin-right: 20px;
     color: #1a1a1a;
     text-decoration: none;
-  }
+}
   main {
     paddding: 40px 0;
     article {
       margin-top: 30px;
-    }
+}
+
     footer {
       padding: 40px 0;
       font-size: 0.9rem;
-    }
+}
