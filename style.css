@@ -81,3 +81,23 @@ blockquote::after {
 blockquote p {
   margin: 0;
 }
+/* Long quotation panel */
+
+.long-quote {
+
+  background-color: #9B9B9B;
+  padding: 28px 32px;
+  margin: 2em 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.05em;
+  line-height: 1.7;
+
+}
+
+.long-quote p {
+  margin: 0 0 1.2em 0;
+}
+
+.long-quote p:last-child {
+  margin-bottom: 0;
+}
