@@ -5,10 +5,11 @@ body{
   font-family: "Times New Roman":, Times, serif;
   line-height: 1.6;
 }
+
 header,
 main,
 footer {
-  width: min(90%,  800px);
+  width: min(90%, 800px);
   margin: 0 auto;
 }
   header {
