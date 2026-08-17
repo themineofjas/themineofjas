@@ -64,7 +64,7 @@ blockquote::after {
 /* Opening quotation mark */
 blockquote::before {
   left: 0;
-  top: -0.15em;
+  top: -0.35em;
 }
 
 /* Mirrored closing quotation mark */
