@@ -73,7 +73,7 @@ blockquote::before {
 }
 
 blockquote::after {
-  right: 10px;
+  right: 7px;
   bottom: -0.15em;
   transform: rotate(180deg);
 }
