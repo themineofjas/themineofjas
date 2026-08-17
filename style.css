@@ -37,7 +37,7 @@ blockquote {
   border-left: none;
   position: relative;
 
-  padding: 0 0 0 90px;
+  padding: 0 90px;
   margin: 1.25em 0 1.4em 0;
 
   font-family: "Times New Roman", Times, serif;
@@ -46,22 +46,31 @@ blockquote {
   min-height: 60px;
 }
 
-blockquote::before {
+blockquote::before,
+blockquote::after {
   content: "“";
-
   position: absolute;
-  left: 0;
-  top: -0.15em;
 
   font-family: "Times New Roman", Times, serif;
   font-size: 5.5em;
   line-height: 1;
+  font-weight: normal;
 
   color: #1BCEEE;
 }
 
+/* Opening quotation mark */
+blockquote::before {
+  left: 0;
+  top: -0.15em;
+}
+
+/* Mirrored quotation mark at the end */
 blockquote::after {
-  content: none;
+  right: 0;
+  bottom: -0.15em;
+
+  transform: rotate(180deg);
 }
 
 blockquote p {
