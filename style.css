@@ -67,9 +67,8 @@ blockquote::before {
   top: -0.35em;
 }
 
-/* Mirrored closing quotation mark */
 blockquote::after {
-  right: 0;
+  right: 15px;
   bottom: -0.15em;
   transform: rotate(180deg);
 }
