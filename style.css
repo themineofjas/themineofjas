@@ -12,21 +12,26 @@ footer {
   width: min(90%, 800px);
   margin: 0 auto;
 }
-  header {
-    padding: 40px 0 20px;
+header {
+  padding: 40px 0 20px;
 }
-  nav {
-    margin-right: 20px;
-    color: #1a1a1a;
-    text-decoration: none;
+nav {
+  margin-top: 10px;
 }
-  main {
-    paddding: 40px 0;
-    article {
+
+nav a {
+  margin-right: 20px;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+main {
+  padding: 40px 0;
+}
+article {
       margin-top: 30px;
 }
 
-    footer {
-      padding: 40px 0;
+footer {
+  padding: 40px 0;
       font-size: 0.9rem;
 }
