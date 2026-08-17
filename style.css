@@ -36,14 +36,16 @@ blockquote {
   quotes: none;
   border-left: none;
   position: relative;
+  display: inline-block;
 
-  padding: 0 90px;
+  padding: 0 70px;
   margin: 1.25em 0 1.4em 0;
 
   font-family: "Times New Roman", Times, serif;
   font-size: 1.2em;
   line-height: 1.6;
   min-height: 60px;
+  max-width: 100%;
 }
 
 blockquote::before,
@@ -65,14 +67,13 @@ blockquote::before {
   top: -0.15em;
 }
 
-/* Mirrored quotation mark at the end */
+/* Mirrored closing quotation mark */
 blockquote::after {
   right: 0;
   bottom: -0.15em;
-
   transform: rotate(180deg);
 }
 
 blockquote p {
-  margin: 0 0 1.4em 0;
+  margin: 0;
 }
