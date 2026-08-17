@@ -2,10 +2,9 @@ body{
   margin: 0;
   background-color:white;
   color: #1a1a1a;
-  font-family: "Times New Roman:, Times, serif;
+  font-family: "Times New Roman":, Times, serif;
   line-height: 1.6;
 }
-
 header,
 main,
 footer {
