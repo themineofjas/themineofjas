@@ -32,3 +32,38 @@ footer {
   padding: 40px 0;
       font-size: 0.9rem;
 }
+blockquote {
+  quotes: none;
+  border-left: none;
+  position: relative;
+
+  padding: 0 0 0 90px;
+  margin: 1.25em 0 1.4em 0;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  line-height: 1.6;
+  min-height: 60px;
+}
+
+blockquote::before {
+  content: "“";
+
+  position: absolute;
+  left: 0;
+  top: -0.15em;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5.5em;
+  line-height: 1;
+
+  color: #1BCEEE;
+}
+
+blockquote::after {
+  content: none;
+}
+
+blockquote p {
+  margin: 0 0 1.4em 0;
+}
